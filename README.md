@@ -19,12 +19,17 @@ The project consists of:
 
 ## 📂 Repository Structure
 ```text
-segmentation_project/
-├── customer_segmentation.ipynb
-├── customer_segmentation.csv
-├── kmeans_model.pkl
-├── scaler.pkl
-└── segmentation.py
+Customer-Segmentation/
+├─ Customer-segmentation/
+│  ├─ segmentation.py               # Streamlit application
+│  ├─ kmeans_model.pkl              # Trained K-Means model
+|  ├─ scaler.pkl                    # Feature scaler
+│  ├─ customer_segmentation.csv     # Customer dataset         
+│  └─ customer_segmentation.ipynb   # Data analysis and clustering             
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+└─ LICENSE
 ```
 
 ---
